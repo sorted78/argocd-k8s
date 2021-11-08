@@ -14,7 +14,7 @@ spec:
         app: demo
     spec:
       containers:
-      - image: index.docker.io/sorted78/vmware-demo:3
+      - image: .
         imagePullPolicy: Always
         name: demo
         ports:
