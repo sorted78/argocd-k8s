@@ -15,7 +15,8 @@ spec:
     spec:
       containers:
       - image: index.docker.io/sorted78/vmware-demo:latest
+        imagePullPolicy: Always
         name: demo
         ports:
         - containerPort: 8080
-        imagePullPolicy: Always
+        
